@@ -16,7 +16,9 @@ const App = () => {
        <Text style={{fontSize: 30, textAlign: "center"}}>Forgot Password?</Text>
        <TextInput title="Username" placeholder="Enter Your Email Address"></TextInput>
        <Button title={'Confirm'}></Button>
-       
+     </View>
+     <View style={{margin: 10, justifyContent: 'space-between'}}>
+     <Button title="Back to Login"></Button>
      </View>
     </>
   );

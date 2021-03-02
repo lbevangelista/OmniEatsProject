@@ -158,7 +158,10 @@ function ProfileScreen() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Text style={{fontSize: 30, flex: 1}}>Profile</Text>
-    </View>
+    </View>,
+	<View style={{ margin: 10, justifyContent: 'space-around' }}>
+	<Button color= 'red' title="Logout"></Button>
+	</View>
   );
 }
 const Tab = createMaterialBottomTabNavigator();
@@ -199,6 +202,7 @@ export default function App() {
           title: 'Profile',
           tabBarIcon: ({ color, size }) => <Icon name='person' color={color} size={size} />
         }}
+		
         />
       </Tab.Navigator>
     </NavigationContainer>

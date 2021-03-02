@@ -15,7 +15,6 @@ const App = () => {
        <Text style={{fontSize: 30, textAlign: "center"}}>User Creation Success!</Text>
        <Text style={{fontSize: 15, textAlign: "center"}}>We have sent a verification link to your email address. Please confirm to start using OmniEats.</Text>
        <Button title={'Done'}></Button>
-       
      </View>
     </>
   );
